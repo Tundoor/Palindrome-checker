@@ -13,9 +13,9 @@ submitButton.addEventListener('click', () => {
    let reversedWord =  textInput1.split('').reverse().join('')
    
    if ( originalWord === reversedWord) {
-      console.log("It Works")
+      result.textContent = "It Works!"
    } else {
-    console.log("It don't work")
+    result.textContent = "It dont Work!"
    }
        
 }) 
