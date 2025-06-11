@@ -13,9 +13,9 @@ submitButton.addEventListener('click', () => {
    let reversedWord =  textInput1.split('').reverse().join('')
    
    if ( originalWord === reversedWord) {
-      result.textContent = "It Works!"
+      result.textContent =`${textInput.value} IS a PALINDROME!`
    } else {
-    result.textContent = "It dont Work!"
+    result.textContent =`${textInput.value} is NOT a PALINDROME!`
    }
        
 }) 
